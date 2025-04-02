@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export default {
   create(context) {
     return {
       BinaryExpression(node) {
