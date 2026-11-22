@@ -1,20 +1,23 @@
 {
   "name": "@nkzw/eslint-plugin",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "ESLint plugin for Nakazawa Tech.",
+  "keywords": [],
+  "license": "MIT",
   "author": "Christoph Nakazawa <christoph.pojer@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/nkzw-tech/eslint-plugin.git"
   },
-  "main": "index.js",
-  "type": "module",
   "files": [
     "index.js",
     "rules"
   ],
-  "keywords": [],
-  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test test.js"
+  },
   "devDependencies": {
     "eslint": "^9.0.0"
   },
@@ -25,8 +28,5 @@
     "eslint": {
       "optional": true
     }
-  },
-  "scripts": {
-    "test": "node test test.js"
   }
 }
