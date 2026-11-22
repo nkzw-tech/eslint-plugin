@@ -21,6 +21,11 @@
   "peerDependencies": {
     "eslint": ">= 9"
   },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    }
+  },
   "scripts": {
     "test": "node test test.js"
   }
